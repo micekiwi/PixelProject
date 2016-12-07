@@ -1,4 +1,5 @@
 $(function() {
+  document.getElementById('image').crossOrigin="Anonymous"
     $('img').mousemove(function(e) {
 
         if(!this.canvas) {
